@@ -1,0 +1,192 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.header-top {
+    padding: 25px 0;
+}
+.header-bottom {
+    overflow: hidden;
+}
+.header-bottom .item img{
+    position: relative;
+    transition: all 300ms ease-in-out;
+}
+.header-bottom .item:hover img{
+    transform: scale(1.04);
+}
+.header-bottom h4{
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+.holder {
+    padding: 5% 0;
+}
+
+.holder .welcome-holder {
+    text-align: center;
+}
+.welcome-holder .grid-sec img{
+    overflow: hidden;
+    position: relative;
+    transition: all 300ms ease-in-out;
+}
+.welcome-holder .grid-sec:hover img{
+    transform: scale(1.04);
+}
+.welcome-holder .grid-sec h3{
+    position: absolute;
+    bottom: 10px;
+    width: 93%;
+    text-align: Left;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0 10px 10px;
+	line-height:24px;
+}
+
+footer {
+    background: rgb(191,196,220);
+    padding: 50px 0;
+    text-align: center;
+}
+.footer-logo{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.footer-logo img{
+    display: inline-block;
+}
+
+footer li {
+    padding: 2px 12px !important;
+}
+
+footer li a {
+    font-size: 16px;
+    color: rgb(0, 170, 255);
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    color: rgb(0, 170, 255);
+    text-decoration: underline;
+}
+
+footer .copy {
+    text-align: center;
+}
+
+footer .copy p {
+    color: rgb(133, 141, 144);
+    font-size: 14px;
+    font-weight: 300;
+}
+.holder-inner {
+    background-color: #ebf3f7;
+}
+.post-holder {
+    padding: 25px 0;
+}
+.post-grid-sec{
+    background-color: #fff;
+    padding: 25px;
+}
+.post-content img{
+    margin: 20px 0;
+}
+.post-content p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.author-image img{
+    width:40px;
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+}
+.author-image p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.author-image a{
+    font-weight: 600;
+}
+.post-head {
+    padding-bottom: 30px;
+}
+.post-btn{
+    color: #fff;
+    font-weight: 900;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    display: block;
+    background: #3b5998;  /* fallback for old browsers */
+   /* background: -webkit-linear-gradient(to right, #4286f4, #373B44);   Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to right, #4286f4, #373B44);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+a.postbtn {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+a.postbtn:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #ebf3f7;
+}
+a .post-btn:hover{
+    background: #3b5998;  /* fallback for old browsers */
+   /* background: -webkit-linear-gradient(to left, #4286f4, #373B44);   Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to left, #4286f4, #373B44);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+
+}
+.post-content-sec {
+    padding: 20px 0;
+}
+.thumbnails-grid{
+    overflow: hidden;
+    margin: 15px 0;
+}
+@media screen and (max-width: 1365px) {}
+
+@media screen and (max-width: 1023px) {}
+
+@media screen and (max-width: 767px) {
+    .header-top .logo {
+        text-align: center;
+    }
+    .header-top .logo img {
+        display: inline-block;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-logo img {
+        display: inline-block;
+    }
+    .header-bottom h4 {
+        top: 0;
+        font-size: 18px;
+        padding: 0 40px;
+    }
+    .post-btn{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .post-grid-sec h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {}
